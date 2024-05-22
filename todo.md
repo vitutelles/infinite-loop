@@ -1,0 +1,4 @@
+- [x] aprender sobre intl
+- [x] buscar template vite
+- [x] na pagina inicial onde esta escrito infinite loop, vais diminuir a imagem q tem atras e deixar ela arredondada nas pontas. exemplo o site q te mandei a segeuir
+- [x] 2. vais procurar como templatizar as informacoes todas do site para uma lingua diferente. Adicionar no cabeçalho do site na direita duas bandeirinhas: bandeirinha do brasil (portugues) e bandeirinha do eua (ingles). conforme a pessoa clicar nas bandeirinhas tu vai mudar os textos q tem no site. por enquanto nao precisa focar no que está escrito, apenas na funcionalidade de conseguir mudar oq ta escrito conforme o usuario clicar na bandeirinha
