@@ -13,7 +13,7 @@
 ## How to use
 
 1. Clone the repository.
-2. Extension 'livepreview' vscode
+2. Extension 'livepreview' vscode.
 
 
 ## Linux installation with apache http server
