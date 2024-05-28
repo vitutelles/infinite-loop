@@ -188,8 +188,8 @@ blockquote {
 }
 
 #inf{
-  width: 500px;
-  padding:50px 0;
+  width: 700px;
+  padding:100px 0;
   border-radius: 30px;
   margin: auto;
   background-image: url(../img/infinite-loop-01.jpg);
@@ -750,4 +750,19 @@ p {
   .tm-gallery-item {
     margin: 0;
   }
+}
+
+.flagUS {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  width: 100%;
+}
+
+.flagBR {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  width: 100%;
+
 }
