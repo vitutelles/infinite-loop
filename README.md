@@ -17,9 +17,10 @@
 
 
 ## Linux installation with apache http server
-
-1. sudo apt install apache2
-2. cd /var/www/html
-3. sudo rm index.html
-4. git clone https://github.com/vitutelles/infite-loop.git
-5. sudo mv ./infinite-Loop/* .
+```bash
+ sudo apt install apache2
+ cd /var/www/html
+ sudo rm index.html
+ git clone https://github.com/vitutelles/infite-loop.git
+ sudo mv ./infinite-Loop/* .
+```
