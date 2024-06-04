@@ -22,5 +22,5 @@
  cd /var/www/html
  sudo rm index.html
  git clone https://github.com/vitutelles/infite-loop.git
- sudo mv ./infinite-Loop/* .
+ sudo mv ./infinite-loop/* .
 ```
