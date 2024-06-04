@@ -76,6 +76,7 @@ blockquote {
   z-index: 1000;
   background-color: transparent;
   transition: all 0.3s ease;
+ 
 }
 
 .tm-navbar.scroll {
@@ -87,6 +88,7 @@ blockquote {
   color: rgb(3, 3, 3);
   font-size: 1.4rem;
   font-weight: bold;
+  
 }
 
 .navbar-brand:hover,
