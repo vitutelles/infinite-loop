@@ -198,14 +198,22 @@ blockquote {
   background-repeat: no-repeat;
   background-size: cover;
   
-  
 }
+@media (max-width: 798px) {
+  #inf {
+  width: 100%;
+  padding: 50px 0;
+  
+  }
+
+}
+ 
 
 #infinite {
 	background-color: rgb(255, 255, 255);
   height: 100vh;
   min-height: 375px;
-  position: relative;
+  position: relativea;
 }
 
 @media (min-height: 600px) and (min-width: 1920px) {
@@ -259,21 +267,14 @@ blockquote {
   text-shadow: 2px 2px 2px #333;
 }
 
-.tm-intro-next {
-  position: absolute;
-  bottom: 100px;
-  left: 0;
-  right: 0;
-}
+
 
 @media (max-height: 480px) {
   .tm-hero-text-container-inner {
     margin-top: -40px;
   }
 
-  .tm-intro-next {
-    bottom: 20px;
-  }
+
 }
 
 .tm-down-arrow-link {
