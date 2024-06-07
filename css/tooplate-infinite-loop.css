@@ -151,6 +151,13 @@ blockquote {
   z-index: 1;
 
 }
+/* Media query para exibir a classe .language-options em telas menores */
+@media (max-width: 768px) {
+  .language-options {
+    display: block; /* Exibe as opções de idioma */
+  }
+}
+
 
 #navbarSupportedContent{
   position: relative;

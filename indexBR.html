@@ -557,8 +557,19 @@
         languageOptions.style.display = 'none';
     } else {
         languageOptions.style.display = 'block';
-    }
-}
+        setTimeout(() => {
+                    document.addEventListener('click', closeLanguageOptionsOnClickOutside);
+                }, 0);
+            }
+        }
+
+        function closeLanguageOptionsOnClickOutside(event) {
+            var languageOptions = document.getElementById('languageOptions');
+            if (!languageOptions.contains(event.target)) {
+                languageOptions.style.display = 'none';
+                document.removeEventListener('click', closeLanguageOptionsOnClickOutside);
+            }
+        }
 
     </script>
   </body>
