@@ -272,6 +272,19 @@ blockquote {
   
 }
 
+@media(max-width:798px) {
+  .tm-hero-title img {
+    width: 100%;
+    padding: 50px 0;
+  }
+
+}
+
+.tm-hero-subtitle {
+  text-shadow: 2px 2px 2px #333;
+}
+
+
 
 @media (max-height: 480px) {
   .tm-hero-text-container-inner {
