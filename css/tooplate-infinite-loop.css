@@ -102,6 +102,7 @@ blockquote {
 
 .nav-item {
   list-style: none;
+  cursor: pointer !important;
 }
 
 .tm-nav-link {
@@ -112,11 +113,12 @@ blockquote {
   color: #369;
 }
 
+
 .tm-navbar.scroll .tm-nav-link:hover,
 .tm-navbar.scroll .tm-nav-link.current,
-.tm-nav-link:hover {
-  color: #FFF;
-  background-color: #369;
+.tm-nav-link:hover{
+  color: #369;
+  
 }
 
 .navbar-toggler {
@@ -179,12 +181,13 @@ blockquote {
   height: 100px;
   width: 100px;
   background-color: black;
+  
 
 }
 
-
 .language-options li {
   list-style-type: none;
+  
 }
 
 .language-options li a {
@@ -210,6 +213,7 @@ blockquote {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
   
 }
  /* Estilos para dispositivos móveis */
@@ -273,11 +277,18 @@ blockquote {
   margin-top: -90px;
 }
 
-.tm-hero-title {
-    width: 100%;
-    height: 100%;
-    margin-top: -30px;
+.logo3 {
+  position: relative;
+  width: 200px;
+  right: 230px;
+  bottom: 170px;
   
+
+}
+.logoagua {
+position: relative;
+left: 90px;
+
 }
 
 @media(max-width:798px) {
@@ -286,10 +297,6 @@ blockquote {
     padding: 50px 0;
   }
 
-}
-
-.tm-hero-subtitle {
-  text-shadow: 2px 2px 2px #333;
 }
 
 
@@ -705,6 +712,10 @@ p {
     padding-left: 30px;
   }
 }
+.navbar-nav:hover .nav-link:hover {
+  color: #38B;
+
+}
 
 @media (min-width: 1200px) {
   .container {
@@ -779,7 +790,7 @@ p {
     margin: 0;
   }
 }
-
+/* Microsoft Edge */
 .flagUS {
   display: flex; 
   align-items: center; 
@@ -795,23 +806,3 @@ p {
 
 }
 
-#video-background {
-  position: block;
-  z-index: -1000;
-  
-}
-#background-video {
-  filter: blur(1px); /* Adiciona o efeito de desfoque */
-}
-  /* Estilos para dispositivos móveis */
-  @media only screen and (max-width: 600px) {
-    #video-background {
-      position: static;
-      min-width: 250%;
-      z-index: auto;
-    }
-    
-    #background-video {
-      filter: blur(1px); /* Adiciona o efeito de desfoque */
-    }
-  }
