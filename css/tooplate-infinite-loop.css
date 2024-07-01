@@ -611,14 +611,15 @@ figure.effect-honey:hover h2 i {
   padding-top: 100px;
 }
 
+
 .contact-item {
   margin-left: 20px;
   margin-bottom: 50px;
 }
 
-.item-link {
+.item-link  {
   display: flex;
-  align-items: center;
+  align-items: center;   
 }
 
 .item-link i,
@@ -645,9 +646,12 @@ figure.effect-honey:hover h2 i {
 .tm-btn-submit {
 	font-size: 0.9em;
 	color: #fff;
+  background-image: url(/img/whatsapp2.png);
+  background-repeat: no-repeat;
 	background-color: #369;
 	width: 50%;
 	margin-bottom: 60px;
+  background-position: left;
 }
 
 .tm-btn-submit:hover {

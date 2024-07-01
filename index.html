@@ -275,12 +275,13 @@
 
     <!-- Contact -->
     <section id="contact" class="tm-section-pad-top tm-parallax-2">
-    
+      
       <div class="container tm-container-contact">
         
         <div class="row">
             
             <div class="text-center col-12">
+
                 <h2 class="tm-section-title mb-4">Contact Us</h2>
                 <p class="mb-5">
                   In fact, then, it is, a desire to guarantee, is a concession.
@@ -288,9 +289,8 @@
             </div>
             
             <div class="col-sm-12 col-md-6">
-              <form action="" method="get">
+              <form id="contact-form">
                 <input id="name" name="name" type="text" placeholder="Your Name" class="tm-input" required />
-                <input id="email" name="email" type="email" placeholder="Your Email" class="tm-input" required />
                 <textarea id="message" name="message" rows="8" placeholder="Message" class="tm-input" required></textarea>
                 <button type="submit" class="btn tm-btn-submit">Submit</button>
               </form>
@@ -299,9 +299,10 @@
             <div class="col-sm-12 col-md-6">
 
                 <div class="contact-item">
-                  <a rel="nofollow" href="" class="item-link">
+                  <a rel="nofollow" href="https://api.whatsapp.com/send?phone=5548996955010
+                  " class="item-link">
                       <i class="far fa-2x fa-comment mr-4"></i>
-                      <span class="mb-0">Chat Online</span>     
+                      <span class="mb-0">Chat Online / WhatsApp</span>     
                   </a>              
                 </div>
                 
@@ -563,7 +564,29 @@
                 document.removeEventListener('click', closeLanguageOptionsOnClickOutside);
             }
         }
+    </script>
 
+    <script>
+      // LINK DO ZAP COM CAIXA DE MENSAGEM
+      document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Impede o envio do formulário
+    console.log('Formulário submetido'); // Mensagem de log para depuração
+
+    var name = document.getElementById('name').value;
+    var message = document.getElementById('message').value;
+    console.log('Nome:', name); // Verifica o valor do nome
+    console.log('Mensagem:', message); // Verifica o valor da mensagem
+    
+    // Número de telefone no formato internacional, sem espaços ou caracteres especiais
+    var phoneNumber = '554899250565'; 
+    
+    // Monta a URL do WhatsApp
+    var whatsappUrl = 'https://api.whatsapp.com/send?phone=' + phoneNumber + '&text=' + encodeURIComponent('Nome: ' + name + '\nMensagem: ' + message);
+    console.log('URL do WhatsApp:', whatsappUrl); // Verifica a URL do WhatsApp
+    
+    // Abre a URL do WhatsApp em uma nova aba
+    window.open(whatsappUrl, '_blank');
+  });
     </script>
   </body>
 </html>
