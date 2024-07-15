@@ -1,505 +1,514 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>DATA SERVICES</title>
-    <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
-    <link rel="stylesheet" href="slick/slick.css">
-    <link rel="stylesheet" href="slick/slick-theme.css">
-    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/tooplate-infinite-loop.css" />
-    <link rel="icon"       href="/img/soalogo3.png" type="image/png">
-  </head>
-  <body>    
-    <!-- Hero section -->
-    <section id="infinite" class="text-white tm-font-big tm-parallax" >
-      <!-- Navigation -->
-      <nav class="navbar navbar-expand-md tm-navbar" id="tmNav" style="padding-top:-65px;">              
-        <div class="container">   
-          <div class="tm-next">
-              <a href="#infinite" class="navbar-brand">DATA SERVICES</a>
-          </div>             
-            
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars navbar-toggler-icon"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                  <a class="nav-link tm-nav-link" href="#infinite">Inicio</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link tm-nav-link" href="#whatwedo">O que fazemos?</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link tm-nav-link" href="#testimonials">Depoimentos</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link tm-nav-link" href="#gallery">Galeria</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link tm-nav-link" href="#contact">Contato</a>
-              </li>                    
-              <li class="nav-item">
-                <a class="nav-link tm-nav-link"  onclick="toggleLanguageOptions()"><img style="width: 30px; border-radius: 15px; margin-left: 5px;" src="https://cdn-icons-png.flaticon.com/512/3909/3909370.png" alt="" srcset=""></a>
-                <ul id="languageOptions" class="language-options">
-                    <li><a class="flagUS" onclick="changePage2()">English <img style="width: 30px; border-radius: 15px; margin-left: 10px;" src="https://cdn-icons-png.flaticon.com/512/197/197484.png" alt="" srcset=""></a></li>
-                    <li><a class="flagBR"  onclick="changePage()">Português <img style="width: 30px; border-radius: 15px; margin-left: 10px;" src="https://cdn-icons-png.flaticon.com/512/3909/3909370.png" alt="" srcset=""></a></li>
-                </ul>
-            </li>
-            
-            </ul>
-          </div>        
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>DATA SERVICES</title>
+  <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
+  <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/tooplate-infinite-loop.css" />
+  <link rel="icon" href="/img/soalogo3.png" type="image/png">
+</head>
+
+<body>
+  <!-- Hero section -->
+  <section id="infinite" class="text-white tm-font-big tm-parallax">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md tm-navbar" id="tmNav" style="padding-top:-65px;">
+      <div class="container">
+        <div class="tm-next">
+          <a href="#infinite" class="navbar-brand">DATA SERVICES</a>
         </div>
-      </nav>
-      <div id="video-background" class="text-center tm-hero-text-container" >
-      <div class="text-center tm-hero-text-container" >
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link tm-nav-link" href="#infinite">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tm-nav-link" href="#whatwedo">O que fazemos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tm-nav-link" href="#testimonials">Depoimentos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tm-nav-link" href="#gallery">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tm-nav-link" href="#contact">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tm-nav-link" onclick="toggleLanguageOptions()"><img
+                  style="width: 30px; border-radius: 15px; margin-left: 5px;"
+                  src="https://cdn-icons-png.flaticon.com/512/3909/3909370.png" alt="" srcset=""></a>
+              <ul id="languageOptions" class="language-options">
+                <li><a class="flagUS" onclick="changePage2()">English <img
+                      style="width: 30px; border-radius: 15px; margin-left: 10px;"
+                      src="https://cdn-icons-png.flaticon.com/512/197/197484.png" alt="" srcset=""></a></li>
+                <li><a class="flagBR" onclick="changePage()">Português <img
+                      style="width: 30px; border-radius: 15px; margin-left: 10px;"
+                      src="https://cdn-icons-png.flaticon.com/512/3909/3909370.png" alt="" srcset=""></a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="video-background" class="text-center tm-hero-text-container">
+      <div class="text-center tm-hero-text-container">
         <div id="inf" class="tm-hero-text-container-inner">
           <h2 class="tm-hero-title"><img src="/img/dataservicelogodagua2.png" class="logoagua"></h2>
           <h2 class="tm-hero-subtitle"><img src="/img/soalogo3.png" class="logo3"></h2>
-      </div>        
+        </div>
       </div>
 
-      
-    </section>
 
-    <section id="whatwedo" class="tm-section-pad-top">
-      
-      <div class="container">
+  </section>
 
-            <div class="row tm-content-box"><!-- first row -->
-                <div class="col-lg-12 col-xl-12">
-                    <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4 tm-section-title">O Que fazemos?</h2>
-                        <p class="mb-4 tm-intro-text">
-                          Este é o Infinite Loop, um modelo HTML gratuito do Bootstrap 4.0 com efeito parallax. Este layout é o que você pode modificar e usar para seus sites. Por favor, espalhe a palavra para seus amigos sobre nosso site. Obrigado por nos apoiar. Se você tiver alguma dúvida, pode nos contatar ou conversar conosco em nossa página do Facebook da Tooplate.</a>.</p>
-                    </div>
-                </div>
+  <section id="whatwedo" class="tm-section-pad-top">
 
-            </div><!-- first row -->
-            
-            <div class="row tm-content-box"><!-- second row -->
-        		<div class="col-lg-1">
-                    <i class="far fa-3x fa-chart-bar text-center tm-icon"></i>
-                </div>
-                <div class="col-lg-5">
-                    <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4">Análise de Mercado</h2>
-                        <p class="mb-4 tm-intro-text">
-                          Praesent sed pharetra lorem, blandit convallis mi. Aenean ornare elit ac metus lacinia, sed iaculis nibh semper. Pellentesque est urna.</p>
-                    </div>
-                </div>
-                
-                <div class="col-lg-1">
-                    <i class="far fa-3x fa-comment-alt text-center tm-icon"></i>
-                </div>
-                <div class="col-lg-5">
-                    <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4">Suporte Rápido
-                        </h2>
-                        <p class="mb-4 tm-intro-text">
-                          Crédito vai para o <a rel="nofollow" href="https://www.pexels.com">Pexels</a> por todas as imagens usadas neste modelo.</p>
-                    </div>
-                </div>
+    <div class="container">
 
-            </div><!-- second row -->
-            
-            <div class="row tm-content-box"><!-- third row -->
-        		<div class="col-lg-1">
-                    <i class="fas fa-3x fa-fingerprint text-center tm-icon"></i>
-                </div>
-                <div class="col-lg-5">
-                    <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4">Segurança Total</h2>
-                        <p class="mb-4 tm-intro-text">
-                      Você <strong> não </strong> tem autoridade para postar este modelo como um arquivo ZIP em seus sites de coleção de modelos. Você pode <strong>usar</strong> este modelo para seus sites comerciais.</p>
-                          
-                          <div class="tm-continue">
-                            <a href="#testimonials" class="tm-intro-text tm-btn-primary">Ler mais</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-1">
-                    <i class="fas fa-3x fa-users text-center tm-icon"></i>
-                </div>
-                <div class="col-lg-5">
-                    <div class="tm-intro-text-container">
-                      <h2 class="tm-text-primary mb-4">Trabalho Social</h2>
-                        <p class="mb-4 tm-intro-text">
-                      Você Pode Alterar a <a href="https://fontawesome.com/icons?d=gallery">Font Awesome icons</a> by either <b><em>fas or far</em></b> nos códigos HTML. Por exemplo:<br>
-                      <em>&lt;i class=&quot;fas fa-users&quot;&gt;&lt;i class=&quot;far fa-chart-bar&quot;&gt;</em> </p>
-                          
-                          <div class="tm-continue">
-                            <a href="#testimonials" class="tm-intro-text tm-btn-primary">Detalhes</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div><!-- third row -->
-
+      <div class="row tm-content-box"><!-- first row -->
+        <div class="col-lg-12 col-xl-12">
+          <div class="tm-intro-text-container">
+            <h2 class="tm-text-primary mb-4 tm-section-title">O Que fazemos?</h2>
+            <p class="mb-4 tm-intro-text">
+              Somos especializados em soluções que envolvem dados. 
+              Oferecemos serviços completos de extração, migração e transformação de dados. 
+              Proporcionamos também visualizações de dados sofisticadas, através de 
+              dashboards, gráficos e outras ferramentas visuais que permitem uma 
+              compreensão clara e rápida das informaçoes críticas para o seu negócio.</p>
+          </div>
         </div>
-      
-    </section>
-    
-    <section id="testimonials" class="tm-section-pad-top tm-parallax-2">      
-      <div class="container tm-testimonials-content">
-        <div class="row">
-          <div class="col-lg-12 tm-content-box">
-            <h2 class="text-white text-center mb-4 tm-section-title">Depoimentos</h2>
-            <p class="mx-auto tm-section-desc text-center">
-              Nenhuma declaração sem um eros de forma alguma, a torta de prazer. Suspenda o ID para que você possa permitir que o pellentesque interdum seja gratuito. Também quer conguilhas de eros.
-              </p>
-            <div class="mx-auto tm-gallery-container tm-gallery-container-2">
-              <div class="tm-testimonials-carousel">
-                <figure class="tm-testimonial-item">
-                  <img src="img/testimonial-img-01.jpg" alt="Image" class="img-fluid mx-auto">
-                  <blockquote>Esta imagem de fundo inclui uma camada de sobreposição semi-transparente. Esta seção também tem um efeito de imagem de paralaxe.</blockquote>
-                  <figcaption>Dobby (Dev)</figcaption>
-                </figure>
 
-                <figure class="tm-testimonial-item">
-                  <img src="img/testimonial-img-02.jpg" alt="Image" class="img-fluid mx-auto">
-                  <blockquote>A seção de depoimentos vem com itens de carrossel. Você pode usar o modelo HTML CSS de loop infinito para seus sites.</blockquote>
-                  <figcaption>Dual Rocker (CEO)</figcaption>
-                </figure>
+      </div><!-- first row -->
 
-                <figure class="tm-testimonial-item">
-                  <img src="img/testimonial-img-03.jpg" alt="Image" class="img-fluid mx-auto">
-                  <blockquote>Nenhuma alavanca ligular de finibus tortor. Interdum e fames de amostragem para você em torno do primis in faucibus.</blockquote>
-                  <figcaption>zeh (juninhoDev) </figcaption>
-                </figure>
+      <div class="row tm-content-box"><!-- second row -->
+        <div class="col-lg-1">
+          <i class="far fa-3x fa-file-archiver text-center tm-icon"></i>
+        </div>
+        <div class="col-lg-5">
+          <div class="tm-intro-text-container">
+            <h2 class="tm-text-primary mb-4">Extração de dados</h2>
+            <p class="mb-4 tm-intro-text">
+              Desenvolvemos aplicações para extrair informações relevantes para nossos 
+              clientes, sejam de planilhas, de um sistema existente ou de 
+              qualquer lugar da internet.</p>
+          </div>
+        </div>
 
-                <figure class="tm-testimonial-item">
-                  <img src="img/testimonial-img-04.jpg" alt="Image" class="img-fluid mx-auto">
-                  <blockquote>O rutrum pharetra lobortis de Curabitur. Pellentesque vehicula, você quis fermentum eleifend, foi arcu aliquetneque.</blockquote>
-                  <figcaption>Oliva Htoo (Designer)</figcaption>
-                </figure>
-              </div>
+        <div class="col-lg-1">
+          <i class="far fa-3x fa-paper-plane text-center tm-icon"></i>
+        </div>
+        <div class="col-lg-5">
+          <div class="tm-intro-text-container">
+            <h2 class="tm-text-primary mb-4">Migração de dados</h2>
+            <p class="mb-4 tm-intro-text">
+              Trabalhamos com migrações de dados de qualquer fonte para a plataforma 
+              de preferência de nossos clientes.</p>
+          </div>
+        </div>
+
+      </div><!-- second row -->
+
+      <div class="row tm-content-box"><!-- third row -->
+        <div class="col-lg-1">
+          <i class="fas fa-3x fa-share-square text-center tm-icon"></i>
+        </div>
+        <div class="col-lg-5">
+          <div class="tm-intro-text-container">
+            <h2 class="tm-text-primary mb-4">Transformação de dado</h2>
+            <p class="mb-4 tm-intro-text">
+              Transformamos os dados de sua empresa em informações úteis para auxiliar 
+              nos processos de tomada de decisão estratégica.</p>
+
+            <div class="tm-continue">
+              <a href="#testimonials" class="tm-intro-text tm-btn-primary">Ler mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-1">
+          <i class="fas fa-3x fa-id-card text-center tm-icon"></i>
+        </div>
+        <div class="col-lg-5">
+          <div class="tm-intro-text-container">
+            <h2 class="tm-text-primary mb-4">Visualização de dados</h2>
+            <p class="mb-4 tm-intro-text">
+              Desenvolvemos dashboards, gráficos e outras ferramentas visuais 
+              para ilustrar os dados fundamentais para nossos clientes, 
+              permitindo uma compreensão clara das informações críticas.</p>
+
+            <div class="tm-continue">
+              <a href="#testimonials" class="tm-intro-text tm-btn-primary">Detalhes</a>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- third row -->
+
+    </div>
+
+  </section>
+
+  <section id="testimonials" class="tm-section-pad-top tm-parallax-2">
+    <div class="container tm-testimonials-content">
+      <div class="row">
+        <div class="col-lg-12 tm-content-box">
+          <h2 class="text-white text-center mb-4 tm-section-title">Depoimentos</h2>
+          <p class="mx-auto tm-section-desc text-center">
+            Nenhuma declaração sem um eros de forma alguma, a torta de prazer. Suspenda o ID para que você possa
+            permitir que o pellentesque interdum seja gratuito. Também quer conguilhas de eros.
+          </p>
+          <div class="mx-auto tm-gallery-container tm-gallery-container-2">
+            <div class="tm-testimonials-carousel">
+              <figure class="tm-testimonial-item">
+                <img src="img/testimonial-img-01.jpg" alt="Image" class="img-fluid mx-auto">
+                <blockquote>Esta imagem de fundo inclui uma camada de sobreposição semi-transparente. Esta seção também
+                  tem um efeito de imagem de paralaxe.</blockquote>
+                <figcaption>Dobby (Dev)</figcaption>
+              </figure>
+
+              <figure class="tm-testimonial-item">
+                <img src="img/testimonial-img-02.jpg" alt="Image" class="img-fluid mx-auto">
+                <blockquote>A seção de depoimentos vem com itens de carrossel. Você pode usar o modelo HTML CSS de loop
+                  infinito para seus sites.</blockquote>
+                <figcaption>Dual Rocker (CEO)</figcaption>
+              </figure>
+
+              <figure class="tm-testimonial-item">
+                <img src="img/testimonial-img-03.jpg" alt="Image" class="img-fluid mx-auto">
+                <blockquote>Nenhuma alavanca ligular de finibus tortor. Interdum e fames de amostragem para você em
+                  torno do primis in faucibus.</blockquote>
+                <figcaption>zeh (juninhoDev) </figcaption>
+              </figure>
+
+              <figure class="tm-testimonial-item">
+                <img src="img/testimonial-img-04.jpg" alt="Image" class="img-fluid mx-auto">
+                <blockquote>O rutrum pharetra lobortis de Curabitur. Pellentesque vehicula, você quis fermentum
+                  eleifend, foi arcu aliquetneque.</blockquote>
+                <figcaption>Oliva Htoo (Designer)</figcaption>
+              </figure>
             </div>
           </div>
         </div>
       </div>
-      <div class="tm-bg-overlay"></div>
-    </section>
-    
-    <section id="gallery" class="tm-section-pad-top">
-      <div class="container tm-container-gallery">
-        <div class="row">
-          <div class="text-center col-12">
-              <h2 class="tm-text-primary tm-section-title mb-4">Galeria</h2>
-              <p class="mx-auto tm-section-desc">
-                Registre suas Fotos
-              </p>
-          </div>            
+    </div>
+    <div class="tm-bg-overlay"></div>
+  </section>
+
+  <section id="gallery" class="tm-section-pad-top">
+    <div class="container tm-container-gallery">
+      <div class="row">
+        <div class="text-center col-12">
+          <h2 class="tm-text-primary tm-section-title mb-4">Galeria</h2>
+          <p class="mx-auto tm-section-desc">
+            Registre suas Fotos
+          </p>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="mx-auto tm-gallery-container">
-                    <div class="grid tm-gallery">
-                      <a href="img/gallery-img-01.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-01.jpg" alt="Image 1" class="img-fluid">
-                          <figcaption>
-                            <h2><i> Saúde  Física <span>Exercício!</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/gallery-img-02.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-02.jpg" alt="Image 2" class="img-fluid">
-                          <figcaption>
-                            <h2><i>Chuva no Vidro <span>Segunda Imagem</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/gallery-img-03.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-03.jpg" alt="Image 3" class="img-fluid">
-                          <figcaption>
-                            <h2><i><span> Vista Mar</span> Mega Cidade</i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/gallery-img-04.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-04.jpg" alt="Image 4" class="img-fluid">
-                          <figcaption>
-                            <h2><i>Garota dos Sonhos <span>Pensamentos</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/gallery-img-05.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-05.jpg" alt="Image 5" class="img-fluid">
-                          <figcaption>
-                            <h2><i><span>Estação de Trabalho</span> Escritórios</i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/gallery-img-06.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-06.jpg" alt="Image 6" class="img-fluid">
-                          <figcaption>
-                            <h2><i>Logo acima <span>Da Cidade</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/gallery-img-01.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-01.jpg" alt="Image 7" class="img-fluid">
-                          <figcaption>
-                            <h2><i>OUTRA <span>Hora do Exercício</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/gallery-img-02.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-02.jpg" alt="Image 8" class="img-fluid">
-                          <figcaption>
-                            <h2><i>Repetido <span>Ponto de imagem</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                    </div>
-                </div>                
-            </div>        
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="mx-auto tm-gallery-container">
+            <div class="grid tm-gallery">
+              <a href="img/gallery-img-01.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/gallery-tn-01.jpg" alt="Image 1" class="img-fluid">
+                  <figcaption>
+                    <h2><i> Saúde Física <span>Exercício!</span></i></h2>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="img/gallery-img-02.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/gallery-tn-02.jpg" alt="Image 2" class="img-fluid">
+                  <figcaption>
+                    <h2><i>Chuva no Vidro <span>Segunda Imagem</span></i></h2>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="img/gallery-img-03.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/gallery-tn-03.jpg" alt="Image 3" class="img-fluid">
+                  <figcaption>
+                    <h2><i><span> Vista Mar</span> Mega Cidade</i></h2>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="img/gallery-img-04.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/gallery-tn-04.jpg" alt="Image 4" class="img-fluid">
+                  <figcaption>
+                    <h2><i>Garota dos Sonhos <span>Pensamentos</span></i></h2>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="img/gallery-img-05.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/gallery-tn-05.jpg" alt="Image 5" class="img-fluid">
+                  <figcaption>
+                    <h2><i><span>Estação de Trabalho</span> Escritórios</i></h2>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="img/gallery-img-06.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/gallery-tn-06.jpg" alt="Image 6" class="img-fluid">
+                  <figcaption>
+                    <h2><i>Logo acima <span>Da Cidade</span></i></h2>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="img/gallery-img-01.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/gallery-tn-01.jpg" alt="Image 7" class="img-fluid">
+                  <figcaption>
+                    <h2><i>OUTRA <span>Hora do Exercício</span></i></h2>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="img/gallery-img-02.jpg">
+                <figure class="effect-honey tm-gallery-item">
+                  <img src="img/gallery-tn-02.jpg" alt="Image 8" class="img-fluid">
+                  <figcaption>
+                    <h2><i>Repetido <span>Ponto de imagem</span></i></h2>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
           </div>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Contact -->
-    <section id="contact" class="tm-section-pad-top tm-parallax-2">
-    
-      <div class="container tm-container-contact">
-        
-        <div class="row">
-            
-            <div class="text-center col-12">
-                <h2 class="tm-section-title mb-4">Contate-nos</h2>
-                <p class="mb-5">
-                  Na verdade, então, é, um desejo de garantir, é uma concessão.
-                </p><br>
-            </div>
-            
-            <div class="col-sm-12 col-md-6">
-              <form id="contact-form">
-                <input id="name" name="name" type="text" placeholder="Seu Nome" class="tm-input" required />
-                <textarea id="message" name="message" rows="8" placeholder="Mensagem" class="tm-input" required></textarea>
-                <button type="submit" class="btn tm-btn-submit">Enviar</button>
-              </form>
-            </div>
-            
-            <div class="col-sm-12 col-md-6">
+  <!-- Contact -->
+  <section id="contact" class="tm-section-pad-top tm-parallax-2">
 
-                <div class="contact-item">
-                  <a rel="nofollow" href="" class="item-link">
-                      <i class="far fa-2x fa-comment mr-4"></i>
-                      <span class="mb-0">Chat Online / WhatsApp</span>     
-                  </a>              
-                </div>
-                
-                <div class="contact-item">
-                  <a rel="nofollow" href="mailto:mail@company.com" class="item-link">
-                      <i class="far fa-2x fa-envelope mr-4"></i>
-                      <span class="mb-0">mail@company.com</span>
-                  </a>              
-                </div>
-                
-                <div class="contact-item">
-                  <a rel="nofollow" href="https://www.google.com/maps" class="item-link">
-                      <i class="fas fa-2x fa-map-marker-alt mr-4"></i>
-                      <span class="mb-0">Nossa localização</span>
-                  </a>              
-                </div>
-                
-                <div class="contact-item">
-                  <a rel="nofollow" href="tel:" class="item-link">
-                      <i class="fas fa-2x fa-phone-square mr-4"></i>
-                      <span class="mb-0">666-666-6666</span>
-                  </a>              
-                </div>
-                
-                <div class="contact-item">&nbsp;</div>
-            
-            </div>
-            
-            
-        </div><!-- row ending -->
-        
-      </div>
+    <div class="container tm-container-contact">
 
-      	<footer class="text-center small tm-footer">
-          <p class="mb-0">
-          Copyright &copy; 2024 DATA SERVICES 
-          
-          . <a rel="nofollow" href="" title="HTML templates"></a></p>
-        </footer>
+      <div class="row">
 
-    </section>
-    
-    <script src="js/jquery-1.9.1.min.js"></script>     
-    <script src="slick/slick.min.js"></script>
-    <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="js/easing.min.js"></script>
-    <script src="js/jquery.singlePageNav.min.js"></script>     
-    <script src="js/bootstrap.min.js"></script> 
-    <script>
+        <div class="text-center col-12">
+          <h2 class="tm-section-title mb-4">Contate-nos</h2>
+          <p class="mb-5">
+            Na verdade, então, é, um desejo de garantir, é uma concessão.
+          </p><br>
+        </div>
 
-      function getOffSet(){
-        var _offset = 450;
-        var windowHeight = window.innerHeight;
+        <div class="col-sm-12 col-md-6">
+          <form id="contact-form">
+            <input id="name" name="name" type="text" placeholder="Seu Nome" class="tm-input" required />
+            <textarea id="message" name="message" rows="8" placeholder="Mensagem" class="tm-input" required></textarea>
+            <button type="submit" class="btn tm-btn-submit">Enviar</button>
+          </form>
+        </div>
 
-        if(windowHeight > 500) {
-          _offset = 400;
-        } 
-        if(windowHeight > 680) {
-          _offset = 300
-        }
-        if(windowHeight > 830) {
-          _offset = 210;
-        }
+        <div class="col-sm-12 col-md-6">
 
-        return _offset;
+          <div class="contact-item">
+            <a rel="nofollow" href="https://api.whatsapp.com/send?phone=554896314054" class="item-link">
+              <i class="far fa-2x fa-comment mr-4"></i>
+              <span class="mb-0">WhatsApp</span>
+            </a>
+          </div>
+
+          <div class="contact-item">
+            <a rel="nofollow" href="mailto:mail@company.com" class="item-link">
+              <i class="far fa-2x fa-envelope mr-4"></i>
+              <span class="mb-0">contato@dataservicesbr.com</span>
+            </a>
+          </div>
+
+          <div class="contact-item">
+            <a rel="nofollow" href="tel:" class="item-link">
+              <i class="fas fa-2x fa-phone-square mr-4"></i>
+              <span class="mb-0">+55 48 9631-4054</span>
+            </a>
+          </div>
+
+          <div class="contact-item">&nbsp;</div>
+
+        </div>
+
+
+      </div><!-- row ending -->
+
+    </div>
+
+    <footer class="text-center small tm-footer">
+      <p class="mb-0">
+        Copyright &copy; 2024 DATA SERVICES
+
+        . <a rel="nofollow" href="" title="HTML templates"></a></p>
+    </footer>
+
+  </section>
+
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="slick/slick.min.js"></script>
+  <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="js/easing.min.js"></script>
+  <script src="js/jquery.singlePageNav.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+
+    function getOffSet() {
+      var _offset = 450;
+      var windowHeight = window.innerHeight;
+
+      if (windowHeight > 500) {
+        _offset = 400;
+      }
+      if (windowHeight > 680) {
+        _offset = 300
+      }
+      if (windowHeight > 830) {
+        _offset = 210;
       }
 
-      function setParallaxPosition($doc, multiplier, $object){
-        var offset = getOffSet();
-        var from_top = $doc.scrollTop(),
-          bg_css = 'center ' +(multiplier * from_top - offset) + 'px';
-        $object.css({"background-position" : bg_css });
-      }
+      return _offset;
+    }
 
-      // Parallax function
-      // Adapted based on https://codepen.io/roborich/pen/wpAsm        
-      var background_image_parallax = function($object, multiplier, forceSet){
-        multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
-        multiplier = 1 - multiplier;
-        var $doc = $(document);
-        // $object.css({"background-attatchment" : "fixed"});
+    function setParallaxPosition($doc, multiplier, $object) {
+      var offset = getOffSet();
+      var from_top = $doc.scrollTop(),
+        bg_css = 'center ' + (multiplier * from_top - offset) + 'px';
+      $object.css({ "background-position": bg_css });
+    }
 
-        if(forceSet) {
+    // Parallax function
+    // Adapted based on https://codepen.io/roborich/pen/wpAsm        
+    var background_image_parallax = function ($object, multiplier, forceSet) {
+      multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
+      multiplier = 1 - multiplier;
+      var $doc = $(document);
+      // $object.css({"background-attatchment" : "fixed"});
+
+      if (forceSet) {
+        setParallaxPosition($doc, multiplier, $object);
+      } else {
+        $(window).scroll(function () {
           setParallaxPosition($doc, multiplier, $object);
+        });
+      }
+    };
+
+    var background_image_parallax_2 = function ($object, multiplier) {
+      multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
+      multiplier = 1 - multiplier;
+      var $doc = $(document);
+      $object.css({ "background-attachment": "fixed" });
+
+      $(window).scroll(function () {
+        if ($(window).width() > 768) {
+          var firstTop = $object.offset().top,
+            pos = $(window).scrollTop(),
+            yPos = Math.round((multiplier * (firstTop - pos)) - 186);
+
+          var bg_css = 'center ' + yPos + 'px';
+
+          $object.css({ "background-position": bg_css });
         } else {
-          $(window).scroll(function(){          
-            setParallaxPosition($doc, multiplier, $object);
-          });
+          $object.css({ "background-position": "center" });
         }
-      };
+      });
+    };
 
-      var background_image_parallax_2 = function($object, multiplier){
-        multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
-        multiplier = 1 - multiplier;
-        var $doc = $(document);
-        $object.css({"background-attachment" : "fixed"});
-        
-        $(window).scroll(function(){
-          if($(window).width() > 768) {
-            var firstTop = $object.offset().top,
-                pos = $(window).scrollTop(),
-                yPos = Math.round((multiplier * (firstTop - pos)) - 186);              
+    $(function () {
+      // Hero Section - Background Parallax
+      background_image_parallax($(".tm-parallax"), 0.30, false);
+      background_image_parallax_2($("#contact"), 0.80);
+      background_image_parallax_2($("#testimonials"), 0.80);
 
-            var bg_css = 'center ' + yPos + 'px';
+      // Handle window resize
+      window.addEventListener('resize', function () {
+        background_image_parallax($(".tm-parallax"), 0.30, true);
+      }, true);
 
-            $object.css({"background-position" : bg_css });
-          } else {
-            $object.css({"background-position" : "center" });
-          }
-        });
-      };
-      
-      $(function(){
-        // Hero Section - Background Parallax
-        background_image_parallax($(".tm-parallax"), 0.30, false);
-        background_image_parallax_2($("#contact"), 0.80);   
-        background_image_parallax_2($("#testimonials"), 0.80);   
-        
-        // Handle window resize
-        window.addEventListener('resize', function(){
-          background_image_parallax($(".tm-parallax"), 0.30, true);
-        }, true);
+      // Detect window scroll and update navbar
+      $(window).scroll(function (e) {
+        if ($(document).scrollTop() > 120) {
+          $('.tm-navbar').addClass("scroll");
+        } else {
+          $('.tm-navbar').removeClass("scroll");
+        }
+      });
+      // Scroll to corresponding section with animation
+      $('#tmNav').singlePageNav({
+        'easing': 'easeInOutExpo',
+        'speed': 600
+      });
 
-        // Detect window scroll and update navbar
-        $(window).scroll(function(e){          
-          if($(document).scrollTop() > 120) {
-            $('.tm-navbar').addClass("scroll");
-          } else {
-            $('.tm-navbar').removeClass("scroll");
-          }
-        });
-        
-        // Close mobile menu after click 
-        $('#tmNav a').on('click', function(){
-          $('.navbar-collapse').removeClass('show'); 
-        })
+      // Add smooth scrolling to all links
+      // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+      $("a").on('click', function (event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
 
-        // Scroll to corresponding section with animation
-        $('#tmNav').singlePageNav({
-          'easing': 'easeInOutExpo',
-          'speed': 600
-        });        
-        
-        // Add smooth scrolling to all links
-        // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
-        $("a").on('click', function(event) {
-          if (this.hash !== "") {
-            event.preventDefault();
-            var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 600, 'easeInOutExpo', function () {
+            window.location.hash = hash;
+          });
+        } // End if
+      });
 
-            $('html, body').animate({
-              scrollTop: $(hash).offset().top
-            }, 600, 'easeInOutExpo', function(){
-              window.location.hash = hash;
-            });
-          } // End if
-        });
+      // Pop up
+      $('.tm-gallery').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: { enabled: true }
+      });
 
-        // Pop up
-        $('.tm-gallery').magnificPopup({
-          delegate: 'a',
-          type: 'image',
-          gallery: { enabled: true }
-        });
-
-        $('.tm-testimonials-carousel').slick({
-          dots: true,
-          prevArrow: false,
-          nextArrow: false,
-          infinite: false,
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          responsive: [
-            {
-              breakpoint: 992,
-              settings: {
-                slidesToShow: 2
-              }
-            },
-            {
-              breakpoint: 768,
-              settings: {
-                slidesToShow: 2
-              }
-            }, 
-            {
-              breakpoint: 480,
-              settings: {
-                  slidesToShow: 1
-              }                 
+      $('.tm-testimonials-carousel').slick({
+        dots: true,
+        prevArrow: false,
+        nextArrow: false,
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 2
             }
-          ]
-        });
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
 
-        // Gallery
-        $('.tm-gallery').slick({
-          dots: true,
-          infinite: false,
-          slidesToShow: 5,
-          slidesToScroll: 2,
-          responsive: [
+      // Gallery
+      $('.tm-gallery').slick({
+        dots: true,
+        infinite: false,
+        slidesToShow: 5,
+        slidesToScroll: 2,
+        responsive: [
           {
             breakpoint: 1199,
             settings: {
@@ -529,61 +538,62 @@
             }
           }
         ]
-        });
       });
-    </script>
-    <script>
-      function changePage(){
-        window.location.href='indexBR.html'
-      }
+    });
+  </script>
+  <script>
+    function changePage() {
+      window.location.href = 'indexBR.html'
+    }
 
-      function changePage2() {
-        window.location.href='index.html'
-      }
+    function changePage2() {
+      window.location.href = 'index.html'
+    }
 
-      function toggleLanguageOptions() {
-    var languageOptions = document.getElementById('languageOptions');
-    if (languageOptions.style.display === 'block') {
+    function toggleLanguageOptions() {
+      var languageOptions = document.getElementById('languageOptions');
+      if (languageOptions.style.display === 'block') {
         languageOptions.style.display = 'none';
-    } else {
+      } else {
         languageOptions.style.display = 'block';
         setTimeout(() => {
-                    document.addEventListener('click', closeLanguageOptionsOnClickOutside);
-                }, 0);
-            }
-        }
+          document.addEventListener('click', closeLanguageOptionsOnClickOutside);
+        }, 0);
+      }
+    }
 
-        function closeLanguageOptionsOnClickOutside(event) {
-            var languageOptions = document.getElementById('languageOptions');
-            if (!languageOptions.contains(event.target)) {
-                languageOptions.style.display = 'none';
-                document.removeEventListener('click', closeLanguageOptionsOnClickOutside);
-            }
-        }
+    function closeLanguageOptionsOnClickOutside(event) {
+      var languageOptions = document.getElementById('languageOptions');
+      if (!languageOptions.contains(event.target)) {
+        languageOptions.style.display = 'none';
+        document.removeEventListener('click', closeLanguageOptionsOnClickOutside);
+      }
+    }
 
-    </script>
+  </script>
 
-<script>
-  // LINK DO ZAP COM CAIXA DE DIALOGO
-  document.getElementById('contact-form').addEventListener('submit', function(event) {
-event.preventDefault(); // Impede o envio do formulário
-console.log('Formulário submetido'); // Mensagem de log para depuração
+  <script>
+    // LINK DO ZAP COM CAIXA DE DIALOGO
+    document.getElementById('contact-form').addEventListener('submit', function (event) {
+      event.preventDefault(); // Impede o envio do formulário
+      console.log('Formulário submetido'); // Mensagem de log para depuração
 
-var name = document.getElementById('name').value;
-var message = document.getElementById('message').value;
-console.log('Nome:', name); // Verifica o valor do nome
-console.log('Mensagem:', message); // Verifica o valor da mensagem
+      var name = document.getElementById('name').value;
+      var message = document.getElementById('message').value;
+      console.log('Nome:', name); // Verifica o valor do nome
+      console.log('Mensagem:', message); // Verifica o valor da mensagem
 
-// Número de telefone no formato internacional, sem espaços ou caracteres especiais
-var phoneNumber = '554899250565'; 
+      // Número de telefone no formato internacional, sem espaços ou caracteres especiais
+      var phoneNumber = '554899250565';
 
-// Monta a URL do WhatsApp
-var whatsappUrl = 'https://api.whatsapp.com/send?phone=' + phoneNumber + '&text=' + encodeURIComponent('Nome: ' + name + '\nMensagem: ' + message);
-console.log('URL do WhatsApp:', whatsappUrl); // Verifica a URL do WhatsApp
+      // Monta a URL do WhatsApp
+      var whatsappUrl = 'https://api.whatsapp.com/send?phone=' + phoneNumber + '&text=' + encodeURIComponent('Nome: ' + name + '\nMensagem: ' + message);
+      console.log('URL do WhatsApp:', whatsappUrl); // Verifica a URL do WhatsApp
 
-// Abre a URL do WhatsApp em uma nova aba
-window.open(whatsappUrl, '_blank');
-});
-</script>
-  </body>
+      // Abre a URL do WhatsApp em uma nova aba
+      window.open(whatsappUrl, '_blank');
+    });
+  </script>
+</body>
+
 </html>
