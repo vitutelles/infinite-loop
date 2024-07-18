@@ -660,7 +660,7 @@ figure.effect-honey:hover h2 i {
 	color: #fff;
   background-image: url(/img/whatsapp2.png);
   background-repeat: no-repeat;
-	background-color: #369;
+	background-color: #38B;
 	width: 50%;
 	margin-bottom: 60px;
   background-position: left;
@@ -668,7 +668,7 @@ figure.effect-honey:hover h2 i {
 
 .tm-btn-submit:hover {
 	color: #fff;
-	background-color: #38B;
+	background-color:rgb(30, 180, 43);
 }
 
 ::placeholder {
