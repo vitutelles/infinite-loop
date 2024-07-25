@@ -290,6 +290,31 @@ position: relative;
 left: 90px;
 
 }
+#backgroundDATA {
+  background-image: url(/img/backgrounddata.png);
+  z-index: 1;
+  background-repeat: no-repeat;
+}
+
+#backgrounddata2 {
+  background-image: url(/img/backgrounddata2.png);
+  z-index: 1;
+  background-repeat: no-repeat;
+
+}
+@media only screen and (max-width: 798px) {
+  #backgroundDATA {
+    width: 100%;
+    padding: 100px; 
+  }
+}
+@media only screen and (max-width: 798px) {
+  #backgrounddata2 {
+    width: 100%;
+    padding: 100px; 
+  }
+}
+
 
 @media(max-width:798px) {
   .tm-hero-subtitle img { 
