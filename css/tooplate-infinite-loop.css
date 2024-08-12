@@ -48,7 +48,7 @@ blockquote {
 }
 
 .tm-text-primary {
-  color: #37A;
+  color: #08978E;
 }
 
 .tm-font-big {
@@ -57,14 +57,14 @@ blockquote {
 
 .tm-btn-primary {
   color: white;
-  background-color: #369;
+  background-color: #08978E;
   padding: 14px 30px;
 }
 
 .tm-btn-primary:hover,
 .tm-btn-primary:focus {
   color: white;
-  background-color: #38B;
+  background-color: #13A6B8;
 }
 
 /* Navbar */
@@ -92,11 +92,11 @@ blockquote {
 
 .navbar-brand:hover,
 .tm-navbar.scroll .navbar-brand:hover {
-  color: #38B;
+  color: #13A6B8;
 }
 
 .tm-navbar.scroll .navbar-brand {
-  color: #369;
+  color: #13A6B8;
 }
 
 .nav-item {
@@ -109,14 +109,14 @@ blockquote {
 }
 
 .tm-navbar.scroll .tm-nav-link {
-  color: #369;
+  color: #13A6B8;
 }
 
 
 .tm-navbar.scroll .tm-nav-link:hover,
 .tm-navbar.scroll .tm-nav-link.current,
 .tm-nav-link:hover{
-  color: #369;
+  color: #13A6B8;
   
 }
 
@@ -148,7 +148,7 @@ blockquote {
   padding: 8px;
   margin-top: 8px;
   border-radius: 15px; 
-  border: 2px solid  #369;
+  border: 2px solid  #13A6B8;
   z-index: 1;
 
 }
@@ -206,7 +206,7 @@ blockquote {
   border-radius: 30px;
   margin: auto;
   position: absolute;
-  background-image: url(../img/infinite-loop-01.jpg);
+  /* background-image: url(../img/infinite-loop-01.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 1;
@@ -279,25 +279,26 @@ blockquote {
 
 .logo3 {
   position: relative;
-  width: 200px;
-  right: 230px;
-  bottom: 170px;
+  width: 340px;
+ bottom: 190px;
+
   
 
 }
 .logoagua {
 position: relative;
-left: 90px;
+width: 200px;
+top:150px;
 
 }
 #backgroundDATA {
-  background-image: url(/img/backgrounddata.png);
+  background-color: #DCF1F2;
   z-index: 1;
   background-repeat: no-repeat;
 }
 
 #backgrounddata2 {
-  background-image: url(/img/backgrounddata2.png);
+  background-color: #DCF1F2;
   z-index: 1;
   background-repeat: no-repeat;
 
@@ -354,7 +355,7 @@ left: 90px;
 .tm-down-arrow {
   	color: #FFF;
     cursor: pointer;
-    background: #357;
+    background: #13A6B8;
     padding: 15px 40px;
     transition: all 0.3s ease;
 }
@@ -362,7 +363,7 @@ left: 90px;
 .tm-down-arrow:hover,
 .tm-down-arrow:focus {
   color: #FFF;
-  background: #37A;
+  background: rgb(204, 211, 216);
   padding: 20px 50px;
 }
 
@@ -383,7 +384,7 @@ left: 90px;
 
 .tm-icon {
   display: block;
-  color: #37A;
+  color: #08978E;
 }
 
 .tm-continue {
@@ -446,7 +447,10 @@ left: 90px;
 }
 
 /* Work */
+#gallery {
+  background-color: #DCF1F2;
 
+}
 .tm-section-desc {
   max-width: 650px;
   width: 100%;
@@ -499,7 +503,7 @@ left: 90px;
   position: relative;
   float: left;
   overflow: hidden;
-  background: #3085a3;
+  background: #13A6B8;
   text-align: center;
   cursor: pointer;
 }
@@ -637,9 +641,8 @@ figure.effect-honey:hover h2 i {
 /* Contact */
 
 #contact {
-  color: white;
-  background-color: #001828;
-  background-image: url(../img/infinite-loop-03.jpg);
+  color: #08978E;
+  background-color: #DCF1F2;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 980px;
@@ -661,7 +664,7 @@ figure.effect-honey:hover h2 i {
 
 .item-link i,
 .item-link span {
-  color: white;
+  color:#08978E;
   transition: all 0.3s ease;
 }
 
@@ -675,30 +678,30 @@ figure.effect-honey:hover h2 i {
 	width: 90%;
   padding: 8px 20px;
   border-radius: 6px;
-  border: 1px solid white;
+  border: 1px solid #08978E;
   background: transparent;
-  color: white;
+  color: rgb(5, 5, 5);
 }
 
 .tm-btn-submit {
 	font-size: 0.9em;
-	color: #fff;
+	color: #140808;
   background-image: url(/img/whatsapp2.png);
   background-repeat: no-repeat;
-	background-color: #38B;
+	background-color: #08978E;
 	width: 50%;
 	margin-bottom: 60px;
   background-position: left;
 }
 
 .tm-btn-submit:hover {
-	color: #fff;
+	color: #000000;
 	background-color:rgb(30, 180, 43);
 }
 
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: white;
+  color: #08978E;
   opacity: 1; /* Firefox */
 }
 
@@ -734,7 +737,7 @@ figure.effect-honey:hover h2 i {
 
 .tm-footer-link:hover,
 .tm-footer-link:focus {
-  color: #38B;
+  color: #13A6B8;
   text-decoration: none;
 }
 
