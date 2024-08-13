@@ -29,3 +29,73 @@
 .section2  {
     color: #035853;
 }
+
+.monitoramento button {
+    background-color: #DCF1F2;
+    border-radius: 15px;
+    border: 2px solid #08978E;
+
+}
+
+.col-lg-5  p {
+    background-color: #C1E8EB;
+    border-radius: 10px;
+}
+
+#planilha {
+    width: 90px;
+    margin-right: 60px;
+}
+
+#grafico {
+    width: 100px;
+    margin-left: 50px;
+
+}
+
+
+.results h3 {
+    text-align: center !important;
+    margin-right: 80px;
+}
+
+#graficozao  {
+ width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+/* @media query para dispositivos com largura máxima de 798px */
+@media (max-width: 798px) {
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .section2 {
+        width: 100%;
+        padding: 50px;
+    }
+
+    .section2 ul li {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    #medalinha,
+    #planilha,
+    #grafico {
+        display: none; /* Ocultar elementos */
+    }
+
+    .results h3 {
+        margin-right: 0;
+    }
+}
