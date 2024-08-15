@@ -202,6 +202,15 @@ blockquote {
   color: #000;
 }
 
+#inf h2{
+color: #000000;
+text-align:center;
+margin-top: 300px;
+margin-right: 50px;
+
+}
+
+
 #infinite {
 	background-color: rgb(255, 255, 255);
   height: 100vh;
@@ -259,7 +268,7 @@ blockquote {
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: local;
-  top: 10px;
+  top: -3px ;
   background-position: 220px;
 
 }
@@ -277,6 +286,7 @@ blockquote {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 80%
+  
   
 }
 
@@ -297,6 +307,9 @@ blockquote {
   }
 }
 
+.tm-hero-subtitle h2 {
+  
+}
 
 @media(max-width:798px) {
   .tm-hero-subtitle img { 
@@ -366,6 +379,8 @@ blockquote {
 .tm-icon {
   display: block;
   color: #08978E;
+  display: flex;
+  margin-left: 150px;
 }
 
 .tm-continue {
