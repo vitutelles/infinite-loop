@@ -28,6 +28,7 @@
 
 .section2  {
     color: #035853;
+    margin-top: -20px;
 }
 
 .monitoramento button {
@@ -87,7 +88,13 @@
 
     .section2 ul li {
         flex-direction: column;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+        text-align:inherit;
+    }
+
+    .section2 img {
+        margin-left: -50px;
+
     }
     #medalinha,
     #planilha,

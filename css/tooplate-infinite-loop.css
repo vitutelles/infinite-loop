@@ -253,11 +253,7 @@ blockquote {
 .container {
   justify-content: left;
 }
-#tmNav a {
-  text-align:
 
-
-}
 #tmNav {
   background-image: url(/img/soalogo3.png); 
   background-repeat: no-repeat;
@@ -271,6 +267,7 @@ blockquote {
 @media only screen and (max-width: 798px){
   #tmNav {
  background-image: none ;
+  
   }
 }
 
