@@ -96,6 +96,7 @@
         flex-direction: column;
         align-items: center;
         padding: 10px;
+        margin-left: 100px;
     }
 
     .section2 {
@@ -110,16 +111,19 @@
     }
 
     .section2 img {
-        margin-left: -50px;
+      display: none;
 
     }
+    #setinha,
     #medalinha,
     #planilha,
-    #grafico {
+    #grafico,
+    #graficozao {
         display: none; /* Ocultar elementos */
     }
 
     .results h3 {
-        margin-right: 0;
+        margin-right: 10px;
+        margin-bottom: 10px;
     }
 }

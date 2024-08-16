@@ -544,6 +544,22 @@
       // Abre a URL do WhatsApp em uma nova aba
       window.open(whatsappUrl, '_blank');
     });
+
+
+    document.addEventListener('DOMContentLoaded', () => {
+  const navLinks = document.querySelectorAll('.nav-item .nav-link');
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      // Remove a classe 'active' de todos os itens
+      navLinks.forEach(nav => nav.parentElement.classList.remove('active'));
+      
+      // Adiciona a classe 'active' ao item clicado
+      link.parentElement.classList.add('active');
+    });
+  });
+});
+
   </script>
 </body>
 

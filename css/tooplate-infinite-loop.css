@@ -285,8 +285,8 @@ margin-right: 50px;
   background-image: url(/img/logomainv1.png); 
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 80%
-  
+  background-size: 80%;
+
   
 }
 
@@ -341,7 +341,7 @@ margin-right: 50px;
 
 }
 
-.tm-down-arrow-link {
+/* .tm-down-arrow-link {
   display: block;
   margin-top: 18%;
 }
@@ -351,7 +351,7 @@ margin-right: 50px;
     cursor: pointer;
     background: #13A6B8;
     padding: 15px 40px;
-    transition: all 0.3s ease;
+    
 }
 
 .tm-down-arrow:hover,
@@ -359,7 +359,7 @@ margin-right: 50px;
   color: #FFF;
   background: rgb(204, 211, 216);
   padding: 20px 50px;
-}
+} */
 
 /* Introduction */
 
@@ -387,11 +387,10 @@ margin-right: 50px;
 	padding: 20px 0 30px 0;
 }
 
-/* Testimonials */
+ /* Testimonials 
 #testimonials {
   color: white;
   background-image: url(../img/infinite-loop-02.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
@@ -440,7 +439,7 @@ margin-right: 50px;
   text-align: right;
   font-style: italic;
   font-size: 1.1rem;
-}
+} */
 
 /* Work */
 #gallery {
@@ -658,6 +657,26 @@ figure.effect-honey:hover h2 i {
   align-items: center;   
 }
 
+
+.nav-link.tm-nav-link {
+  padding: 10px 20px;
+  color: #000;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.nav-link.tm-nav-link:hover {
+  background-color: #DCF1F2; /* Cor de fundo ao passar o mouse */
+  color: #00000000; /* Cor do texto ao passar o mouse */
+}
+
+
+.nav-item.active {
+  background-color: #DCF1F2; /* Cor de fundo quando selecionado */
+  color: #000000; /* Cor do texto quando selecionado */
+  border-radius: 20px;
+}
+
 .item-link i,
 .item-link span {
   color:#08978E;
@@ -666,7 +685,7 @@ figure.effect-honey:hover h2 i {
 
 .item-link:hover i,
 .item-link:hover span {
-  color: #3496d8;
+  color: #ffffff;
 }
 
 .tm-input {
@@ -752,11 +771,6 @@ p {
     padding-left: 30px;
   }
 }
-.navbar-nav:hover .nav-link:hover {
-  color: #38B;
-
-}
-
 @media (min-width: 1200px) {
   .container {
     max-width: 1275px;
