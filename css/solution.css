@@ -10,7 +10,10 @@
     
 
 }
+.col-lg-1 {
+    right: 20px;
 
+}
 
 
 .section2 {
@@ -36,6 +39,7 @@
     margin-bottom: 45px;
     display: flex;
     align-items: center;
+    line-height: 1;
 }
 
 #info-hunter {
@@ -45,6 +49,7 @@
     list-style-type: none;
     padding-left: 0;
     margin-left: -100px;
+    line-height: 1;
 
 }
   
@@ -55,7 +60,7 @@ color: #08978E;
 
 .section2  {
     color: #050D5C;
-    margin-top: -50px;
+    margin-top: -100px;
 }
 
 .monitoramento button {
@@ -73,20 +78,20 @@ margin-left: 50px;
 }
 .col-lg-5 p {
     background-color: #C1E8EB;
-    height: auto; 
+    height: 150px; 
     padding: 20px; 
+    width: 100%; /* Ajuste a largura conforme necessário */
     text-align: center;
     border-radius: 15px;
     line-height: 1.5; 
+    
 }
 @media (max-width: 798px){
 .col-lg-1  i {
     text-align: center;
     display: none;
     
-
 }
-
 
 }
 
