@@ -17,7 +17,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #D40;
+  color: rgb(3, 3, 3);
 }
 
 a:focus {
