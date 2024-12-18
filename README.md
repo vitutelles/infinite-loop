@@ -1,4 +1,4 @@
-# INFINITE-LOOP
+# INFINITE-LOOP mvp
 
 ### Template infinite loop, created/manipulated for study purposes.
 
